@@ -3,6 +3,9 @@
 PROTO_DIR=./proto
 GEN_DIR=./src/generated
 
+rm -rf ${GEN_DIR}
+mkdir ${GEN_DIR}
+
 # Generate JavaScript code
 # install package
 #   grpc-tools
