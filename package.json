@@ -1,0 +1,22 @@
+{
+  "name": "proto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm ./src/generated/* && sh proto/build.sh && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "grpc": "^1.24.3"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.7.4",
+    "grpc-tools": "^1.9.1",
+    "grpc_tools_node_protoc_ts": "^5.0.1"
+  }
+}
